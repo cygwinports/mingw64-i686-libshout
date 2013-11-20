@@ -14,7 +14,7 @@ SRC_URI="http://downloads.us.xiph.org/releases/libshout/libshout-${VERSION}.tar.
 SRC_DIR="libshout-${VERSION}"
 PATCH_URI="
 	2.2.2-no-undefined.patch
-	2.3.1-vpath.patch
+	2.3.1-mingw.patch
 "
 
 MAKEOPTS+=" doc_DATA= "
